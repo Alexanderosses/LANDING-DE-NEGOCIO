@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PROYECTO 1: Landing de Negocio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/css/own.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+        
+
+    </head>
+    <body>
+        <!-- MENU -->
+        <header>
+            <nav class="navbar navbar-expand-md fixed-top bg-dark">
+              <div class="container-fluid menu-header">
+                <div class="col-md-3 col-sm-12">
+                    <img src="/img/logo.png" alt="Logo Harman Kardom" class="logo-header">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="col-md-12 col-sm-12 collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mb-2 col-md-9 col-sm-12 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio" target="_self">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#catalogo" target="_self">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inalambrico" target="_self">Inalámbrico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sistemas" target="_self">Sistemas</a>
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="#automotor" target="_self">Automotor</a>
+                        </li>                                       
+                    </ul>
+                </div>
+              </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- INICIO JUMBOTRON -->
+            <section id="inicio" class="b-blue container-fluid">
+                <div class="row d-flex align-items-center text-start">
+                    <div class="col-md-4 p-4">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h1 class="fw-bold t-title line-b">Escucha música diferente en cada habitación</h1>
+                            </div>
+                            <span class="t-text pt-2">
+                                La solución perfecta para cada lugar de tu hogar 
+                            </span>  
+                            <form class="row g-3">
+                                <div class="col-md-12 col-sm-12">
+                                    <label for="inputPassword2" class="t-text small">Deseo más información</label>
+                                </div>
+                                <div class="col-md-9 col-sm-12 col-xs-12 pt-2">                                  
+                                    <input type="email" class="form-control input-form" id="inputPassword2" placeholder="Ingresa tu email">
+                                </div>
+                                <div class="col-md-3 col-xs-6 mt-4">
+                                    <button type="submit" class="btn btn-primary mb-3 input-boton px-4">ENVIAR</button>
+                                </div>
+                            </form>
+                        </div>                 
+                    </div>
+                    <div class="col-md-8 g-0 b-img-back d-none d-sm-block">
+                        <!--img src="/img/BANNER-SUPERIOR-1.png" class="img-fluid img-back" alt="Banner Superior"-->
+                    </div>                        
+                </div>
+            </section>
+
+            <!-- CARDS -->
+            <section class="container my-5" id="catalogo">
+                <div class="container text-center pb-4">
+                    <h2 class="display-6 fw-light">Nuestros productos destacados</h2>
+                    <h3>Más conexión, Más poder, Sonido puro</h3>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">                    
+                    <div class="col-md-3">
+                        <div class="card h-100 b-card">
+                            <img src="/img/p1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title line-a">Onyx Studio 4</h5>
+                                <ul>
+                                    <li class="card-text">60W RMS</li>
+                                    <li class="card-text">Harman Kardon Connect+</li>
+                                    <li class="card-text">Diseño minimalista</li>
+                                    <li class="card-text">Bluetooth 4.2</li>   
+                                </ul>          
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card h-100 b-card">
+                            <img src="/img/p2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title line-a">Citation One</h5>
+                                <ul>
+                                    <li class="card-text">40W RMS</li>
+                                    <li class="card-text">Harman Kardon Connect+</li>
+                                    <li class="card-text">Diseño minimalista</li>
+                                    <li class="card-text">Bluetooth 4.2</li>   
+                                </ul>                  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card h-100 b-card">
+                            <img src="/img/p3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title line-a">Fly ANC</h5>
+                                <ul>
+                                    <li class="card-text">30 mW</li>
+                                    <li class="card-text">Harman Kardon Connect+</li>
+                                    <li class="card-text">Diseño minimalista</li>
+                                    <li class="card-text">Bluetooth 4.2</li> 
+                                    
+                                </ul>                  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card h-100 b-card">
+                            <img src="/img/p4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title line-a">Aura Studio 3</h5>
+                                <ul>
+                                    <li class="card-text">100W RMS</li>
+                                    <li class="card-text">Harman Kardon Connect+</li>
+                                    <li class="card-text">Diseño minimalista</li>
+                                    <li class="card-text">Bluetooth 4.2</li>   
+                                </ul>                  
+                            </div>
+                        </div>
+                    </div>                                             
+                </div>
+            </section>
+
+            <!-- INALAMBRICO -->
+            <section class="container-fluid mt-4 b-blue-black" id="inalambrico">
+                <article class="row align-items-center">
+                    <div class="col-md-6 g-0">
+                        <img src="/img/AuraStudio3_LifestyleImage_904x560.jpg" alt="..." class="img-fluid">
+                    </div>
+                    <div class="col-md-6 p-5 g-0">
+                        <h2 class="display-6 fw-light line-b t-title">Un sonido hermoso Tiene que ser inalámbrico</h2>            
+                        <p class="fw-light pt-3 t-text">Con los últimos diseños de Harman Kardon no hay nada que pueda quedar mal en el interior de su hogar.</p>
+                        <p class="fw-light t-text">Mi sugerencia para seleccionar un producto: Busque los productos inalámbricos para que pueda desahacerse de los cables desordenados!</p>
+                        <button type="button" class="btn btn-primary fw-bold boton-1 mt-4">MAS INFO</button>
+                    </div>
+                </article>
+            </section>        
+
+            <!-- SISTEMAS -->
+            <section class="container-fluid mt-5" id="sistemas">
+                <div class="container text-center">
+                    <h2 class="display-6 fw-light pb-4 ">Un sonido hermoso Tiene que ser inalámbrico</h2>
+                    <div class="row mb-5">
+
+                        <article class="col-md-6 col-sm-12 pb-4">
+                            <div class="border radio-4 p-4">
+                                <div class="row p-0 m-0">
+                                    <div class="col-md-4 p-0 m-0">
+                                        <img src="/img/p8.png" class="img-fluid rounded" alt="...">
+                                    </div>
+                                    <div class="col-md-8 text-start">
+                                        <h5>SB26</h5>
+                                        <p class="mt-1">El nuevo Harman Kardon SB26 es una barra de sonido diseñada a medida para llevar su espacio vital a la era digital. Con sus 4 woofers, 2 tweeters y un potente subwoofer de 100 W.</p>
+                                        <button type="button" class="btn btn-primary fw-bold boton-2">MAS INFO</button>
+                                    </div> 
+                                    
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="col-md-6 col-sm-12 pb-4">
+                            <div class="border radio-4 p-4">
+                                <div class="row p-0 m-0">
+                                    <div class="col-md-4 p-0 m-0">
+                                        <img src="/img/p5.png" class="img-fluid rounded" alt="...">
+                                    </div>
+                                    <div class="col-md-8 text-start">
+                                        <h5>Omni 20</h5>
+                                        <p>Harman Kardon Omni 20 es un sistema inalámbrico de audio verdaderamente HD estéreo. Llena la habitación con un sonido puro y nítido gracias a la experiencia de Harman.</p>
+                                        <button type="button" class="btn btn-primary fw-bold boton-2">MAS INFO</button>
+                                    </div>  
+                                </div>
+                            </div>
+                        </article>        
+                        
+                        <article class="col-md-6 col-sm-12 pb-4">
+                            <div class="border radio-4 p-4">
+                                <div class="row p-0 m-0">
+                                    <div class="col-md-4 p-0 m-0">
+                                        <img src="/img/p4.png" class="img-fluid rounded" alt="...">
+                                    </div>
+                                    <div class="col-md-8 text-start">
+                                        <h5>FLY ANC</h5>
+                                        <p>Sumérgete por completo en un audio de lujo, sin distracciones. La avanzada tecnología de cancelación activa de ruido de los auriculares Harman Kardon FLY ANC.</p>
+                                        <button type="button" class="btn btn-primary fw-bold boton-2">MAS INFO</button>
+                                    </div>  
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="col-md-6 col-sm-12 pb-4">
+                            <div class="border radio-4 p-4">
+                                <div class="row p-0 m-0">
+                                    <div class="col-md-4 p-0 m-0">
+                                        <img src="/img/p9.png" class="img-fluid rounded" alt="...">
+                                    </div>
+                                    <div class="col-md-8 text-start">
+                                        <h5>HARMAN KARDON MARINO</h5>
+                                        <p>Harman Kardon se propuso crear una línea de productos de audio marinos diseñados para funcionar como uno solo para brindar una integración perfecta. </p>
+                                        <button type="button" class="btn btn-primary fw-bold boton-2">MAS INFO</button>
+                                    </div>  
+                                </div>
+                            </div>
+                        </article>   
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- AUTOMOTOR -->
+            <section class="container-fluid mt-4 b-blue-black" id="automotor">
+                <article class="row align-items-center">
+                    <div class="col-md-6 align-items-center text-end p-5 g-0">
+                        <h2 class="display-6 fw-light line-b t-title">Harman Kardon en Hyundai</h2>            
+                        <p class="fw-light pt-3 t-text">Mejore el tiempo que pasan juntos con Harman Kardon en Hyundai. Diseñado a la medida para complacer los sentidos, este sistema de sonido cautiva a cada pasajero, haciendo que cada momento en el camino sea hermoso, memorable y completamente tuyo.</p>
+                        <button type="button" class="btn btn-primary fw-bold boton-1 mt-4">MAS INFO</button>
+                    </div>
+                    <div class="col-md-6 g-0">
+                        <img src="/img/hiunday.jpg" alt="..." class="img-fluid">
+                    </div>
+                </article>
+            </section>                
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="container-fluid">
+            <section class="">
+                <nav class="row menu-footer pt-4 col-md-12 align-items-center">
+                    <div class="col-md-3 col-sm-12 movil-a">
+                        <img src="/img/logo.png" alt="Logo Harman Kardom" class="logo-footer ">
+                    </div>
+                    <div class="col-md-6 text-end movil-a">
+                        <ul>
+                            <li><a href="#inicio" target="_self">Inicio</a></li>
+                            <li><a href="#catalogo" target="_self">Catálogo</a></li>
+                            <li><a href="#Inalambrico" target="_self">Inalámbrico</a></li>
+                            <li><a href="#Sistemas" target="_self">Sistemas</a></li>
+                            <li><a href="#Automotor" target="_self">Automotor</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 text-end g-0 movil-a">
+                        <p class="t-text">signenos en 
+                            <span class="px-2"><img src="/img/facebook.png" alt="Logo Facebook" class="logo-rrss "></span>
+                            <span><img src="/img/instagram.png" alt="Logo Instagram" class="logo-rrss"></span>
+                        </p>
+                    </div>
+                </nav>
+                <address class="text-center fw-light line-c col-md-12">
+                    <p class="m-auto pt-2">© 2023 Harman International Industries, Incorporated.  Todos los derechos reservados.</p>
+                    <p class="m-auto pb-4">767 5th Ave, New York, NY 10153, United States.</p>
+                </address>
+            </section>
+        </footer>
+
+    </body>
+</html>

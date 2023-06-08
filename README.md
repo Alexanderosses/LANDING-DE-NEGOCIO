@@ -1,6 +1,7 @@
 Este proyecto está enfocado en construir una página "landing" para un negocio.
 ////////////////////////////////////////////////////////////////////////////////////
 
+Rubrica
 Se te pide que sea una sola página que permita establecer:
 
 Mensajes del negocio (¿qué se vende?)
